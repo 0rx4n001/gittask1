@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sign_form{
+    width: 400px;
+    background-color: blue;
+    opacity: 80%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: auto;
+}
+.inp_group{
+    margin: 15px 0;
+}
+input{
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: none;
+}
+label{
+    display: inline-block;
+    width: 100px;
+}
+button{
+    padding: 4px 6px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+}
