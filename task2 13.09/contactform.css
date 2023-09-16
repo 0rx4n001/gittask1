@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', cursive;
+}
+.contact_form{
+    width: 400px;
+    height: 852px;
+    margin: auto;
+    gap: 15px;
+    padding: 40px;
+    border-radius: 4px;
+    top: 43px;
+    left: 319px;
+}
+h2{
+    width: 150px;
+    height: 30px;
+    size: 24px;
+    font-weight: 600;
+}
+.main_div{
+    width: 320px;
+    height: 654px;
+    border-radius: 16px;
+    gap: 8px;
+}
+.error_label{
+    display: none;
+    color:#FD7542;
+    height: 13px;
+}
+.inp_group{
+    width: 320px;
+    height: 72px;
+}
+label{  
+    width: 27px;
+    height: 13px;
+    font-weight: 400;
+    size: 10;
+    /* display: inline-block; */
+}
+input{
+    display: inline-block;
+    width: 320px;
+    height: 40px;
+    border: 1px solid #d7dedd;
+    border-radius: 6px;
+    padding: 8px;
+    gap: 8px;
+}
+.div_phone{
+    width: 320px;
+    height: 40px;
+}
+#reg{
+    display: inline;
+    width: 48px;
+    height: 40px;
+    margin: 0;
+}
+#phone{
+    display: inline;
+    width: 265px;
+    height: 40px;
+    margin: 0;
+}
+#state{
+    width: 320px;
+    height: 40px;
+}
+.inp_group_textra{
+    width: 320px;
+    height: 146px;
+}
+#message{
+    width: 320px;
+    height: 124px;
+    gap: 4px;
+}
+#check{
+    width: 16px;
+    height: 16px;
+}
+.inp_group_chck{
+    width: 320px;
+    height: 20px;
+    gap: 6px;
+}
+button{
+    width: 320px;
+    height: 40px;
+    border-radius: 6px;
+    padding: 6px;
+    background: #5732EE;
+    ;
+}
