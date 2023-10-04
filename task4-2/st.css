@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+.maino{
+    width: auto;
+    height: 700px;
+    
+}
+.frame1{
+    border-radius: 9px;
+    margin:50px 30% 0 25%;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    border: 1px solid gainsboro;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.ig{
+    width: 150px;
+    height: 150px;
+  
+    position: absolute;
+}
+.imgcl{
+    max-width: 150px;
+}
+.frame2{
+    position: absolute;
+    right: 0px;
+    width: 400px;
+    height: 400px;
+
+}
+.freesh{
+    color: white;
+    width: 150px;
+    height: 25px;
+    margin-left: 10px;
+    border-radius: 20px;
+    background-color: rgb(85, 41, 207);
+    
+}
+.bluetxt{
+    margin: 10px;
+    color: rgb(85, 41, 207);
+    font-size: 20px;
+    font-weight: bold;
+}
+.adtocart{
+    margin:20px 0 15px 10px;
+    width: 300px;
+    height: 50px;
+    background-color:blue;
+    border-bottom: 40px solid rgb(rgb(16, 19, 223), green, blue);
+    border-radius: 10px;
+    display: block;
+    font-weight: bold;
+    font-size: x-large;
+    color: white;
+}
+.grencirc{
+    margin-left: 10px;
+    border: none;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    display: inline-block;
+
+}
+.scale{
+    width: 150px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    position: relative;
+    display: inline-block; 
+    margin: 2px;
+    padding-top: 6px;
+    padding-left: 35px;
+    font-size: large;
+    color: rgb(85, 41, 207);
+    
+}
+.hearth{
+    width: 150px;
+    height: 40px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 2px;
+    position: relative;
+      padding-top: 6px;
+    padding-left: 30px;
+    font-size: large;
+    color: rgb(85, 41, 207);
+}
+.scalemg{
+    max-width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.schecard{
+    display: flex;
+    margin: 15px 0 0 10px;
+    width: 305px;
+    height: 45px;
+}
+.herthmg{
+    max-width: 20px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
