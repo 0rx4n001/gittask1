@@ -21,6 +21,7 @@ header{
     // height: 277px;
 
 }
+
 .nav-bar{
     @include d-flex (flex, space-between, row, center, wrap, _);
     width: 1220px;
@@ -361,7 +362,9 @@ color: $--color6;
         height: 269px;
 
         &-title{
-
+            font-size: 26px;
+            font-weight: 400;
+            color: #14161B;
         }
 
         &-card{
@@ -469,16 +472,13 @@ color: $--color6;
      }
 }
 
-.cont{
-    margin-top: 96px;
-}
+
 
 .partners{
     @include d-flex(flex, space-between, column, start, nowrap, 52px); 
     width: 1224px;
     height: 170px;
     margin: auto;
-    border: 1px solid red;
 
     &-title{
         font-size: 32px;
@@ -489,12 +489,10 @@ color: $--color6;
     &-content{
         height: 70px;
         @include d-flex(flex, space-between, row, start, nowrap, 94px); 
-        border: 1px solid red;
 
         &-items{
             min-width: 110px;
             height: 70px;
-            border: 1px solid red;
 
             .items-img{
                 max-width: 100%;
@@ -505,25 +503,27 @@ color: $--color6;
 }
 
 footer{
-    @include d-flex(flex, space-between, row, center, nowrap, 72px);
+    @include d-flex(flex, bottom, column, center, nowrap, _);
     min-height: 366px;
-    background-color: rgba(240, 241, 243, 1);
-    border: 1px solid red;
+    background-color: #F0F1F3;
+    // background-color: rgba(240, 241, 243, 1);
+   
 
     .faq{
-        @include d-flex(flex, space-between, row, bottom, nowrap, 128px);
+        @include d-flex(flex, space-between, row, end, nowrap, 128px);
         width: 1223px;
         height: 228px;
         margin: auto;
-        border: 1px solid red;
 
         &-items{
             @include d-flex(flex, center, column, bottom, nowrap, _);
-            height: 228px;
-            border: 1px solid red;
+            max-height: 228px;
+            
 
             &-title{
-
+                font-size: 24px;
+                font-weight: 600;
+                color: #1D2939;
             }
 
             &-txt{
@@ -531,12 +531,65 @@ footer{
                 padding-top: 10px;
                 list-style: none;
                 text-align: start;
+                font-size: 16px;
+                font-weight: 400;
+                color: #1D2939;
 
                 &li{
                 padding: 70px;
                 }
             }
         }
+
+        &-subsqribe{
+            @include d-flex(flex, center, row, bottom, nowrap, 12px);
+            width: 365px;
+            height: 48px;
+
+            .sub-input{
+                width: 243px;
+                border-radius: 8px;
+                font-size: 14px;
+                color: #667085;
+            }
+            .sub-btn{
+                width: 110px;
+                padding: 12px, 20px, 12px, 20px;
+                gap: 12px;
+                border-radius: 8px;
+                background-color: $--color4;
+                font-size: 14px;
+                text-align: center;
+                color: white;
+                cursor: pointer;
+            }
+        }
     }
 }   
 
+
+.footer-down{
+    @include d-flex(flex, space-around, row, bottom, nowrap, 652px);
+    min-height: 62px;
+    background-color: #F0F1F3;
+
+    &-items{
+        @include d-flex(flex, center, row, bottom, nowrap, 12px);
+        font-size: 14px;
+        list-style: none;
+        cursor: pointer;
+        color: #000000;
+    }
+    &-icons{
+        width: 186px;
+        height: 24px;
+
+        img{
+            max-width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.cont{
+    margin-top: 96px;
+}
