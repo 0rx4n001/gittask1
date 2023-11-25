@@ -1,0 +1,121 @@
+<html>
+ 
+<!-- ==================================
+=================TASK 1==================== -->
+<!-- Task 1: Change the Background Color
+Create an HTML file with a button. When the button is clicked, 
+change the background color of the page to a random color. -->
+
+<!-- <head> 
+  <title>Random Color</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    #button {
+      display: block;
+      margin: 100px auto;
+      padding: 10px 20px;
+      font-size: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <button id="button">Change Page Background Color</button>
+
+  <script>
+    const background = document.getElementsByTagName("body")[0];
+    const button = document.getElementById("button");
+
+    const getRandomNumber = (maxNum) => {
+      return Math.floor(Math.random() * maxNum);
+    };
+
+    const getRandomColor = () => {
+      const r = getRandomNumber(256);
+      const g = getRandomNumber(256);
+      const b = getRandomNumber(256);
+      const a = Math.random().toFixed(1);
+
+      return `rgba(${r}, ${g}, ${b}, ${a})`;
+    };
+
+    const setBackgroundColor = () => {
+      const randomColor = getRandomColor();
+      background.style.backgroundColor = randomColor;
+    };
+
+    button.addEventListener("click", setBackgroundColor);
+
+    window.onload = setBackgroundColor;
+  </script> -->
+
+<!-- ==================================
+=================TASK 2==================== -->
+
+  <!-- Task 2: Create an HTML file with a button and a 
+  counter display. When the button is clicked, 
+  increment the counter and update the display. -->
+
+<!-- <h4>Current count: <span id="count">0</span></h4>
+<div class="container">
+  <button id="decrement">Decrement</button>
+  <button id="increment">Increment</button>
+</div>
+
+<script>
+
+
+let count = 0;
+const button = document.getElementById("increment");
+const button2 = document.getElementById("decrement");
+const textHolder = document.getElementById("count");
+textHolder.innerHTML = count;
+
+button.addEventListener("click", function() {
+textHolder.innerHTML = ++count;
+});
+
+button2.addEventListener("click", function() {
+textHolder.innerHTML = --count;
+});
+
+</script> -->
+
+<!-- ==================================
+=================TASK 3==================== -->
+
+<!-- Task 3: Create an HTML element for the image tag and show the screen an image then 
+create a button in HTML and write a function in JS for button click. 
+When click the button change the image source(src) attribute -->
+
+<!-- <div>
+    <h1>GeeksforGeeks</h1>
+    <h3>Click on the button to see image</h3>
+    <img id="image" src="" />
+</div>
+<button type="button" onclick="show()" id="btnID">
+    Show Image
+</button>
+<script>
+    function show() {
+
+        let image = document.getElementById("image");
+        image.src =
+"https://raw.githubusercontent.com/Kodluyoruz/taskforce/main/javascript/javascript-temel/object-ve-array-destructuring-kullanimi/figures/js.jpg"
+        document.getElementById("btnID")
+            .style.display = "none";
+    }
+</script> -->
+
+
+
+
+</body>
+
+</html>
