@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border: 5px solid white;
+    height: 275px;
+    width: 750px;
+    margin: auto;
+    text-align: center;
+}
+p{
+    color: white;
+}
+#userInput{
+    width: 150px;
+    margin: 15px auto;
+    border-radius: 4px;
+    height: 35px;
+    text-align: center;
+}
+#btn{
+    border-radius: 4px;
+    width: 100px;
+    height: 30px;
+}
