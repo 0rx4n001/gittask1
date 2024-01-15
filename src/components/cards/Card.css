@@ -1,0 +1,7 @@
+.sectionA{
+    width: 600px;
+    height: 600px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: blueviolet;
+}
