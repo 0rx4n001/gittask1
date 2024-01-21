@@ -5,6 +5,8 @@ import image1 from './samsung.png';
 import image2 from './motorola1.jpg';
 import image3 from './motorola2.jpg';
 import image4 from './xiaomi.png';
+import StateCard from '../conponents/task2_components/StateCard';
+
 
 const Body = () => {
   const Products = [
@@ -52,9 +54,10 @@ const Body = () => {
   ]
   return (
     <div className='wrapper'>
-      {Products.map((item)=>(
+      {/* <StateCard/> */}
+      {/* {Products.map((item)=>(
         <Card key={item.id} product_name={item.prod_name} seller={item.seller_name} wievs={item.wievs} reyting={item.reyting} popularity={item.popularity} price={item.price} src={item.src} />
-        ))} 
+        ))}  */}
        </div>
   )
 }

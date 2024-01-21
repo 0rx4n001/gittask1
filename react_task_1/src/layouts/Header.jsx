@@ -6,7 +6,7 @@ const Header = () => {
 
   return (
     <header>
-      <Banner baner_title='Lorem ipsum dolor sit amet consectetur.'/>
+      {/* <Banner baner_title='Lorem ipsum dolor sit amet consectetur.'/> */}
     </header>
   )
 }
